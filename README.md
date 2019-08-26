@@ -4,59 +4,38 @@ EGNet:Edge Guidance Network for Salient Object Detection (ICCV 2019)
 ### For training:
 1. Clone this code by `git clone https://github.com/JXingZhao/EGNet.git --recursive`, assume your source code directory is`$EGNet`;
 
-2. Download [training data](https://pan.baidu.com/s/1LaQoNRS8-11V7grAfFiHCg) (fsex)
+2. Download [training data](https://pan.baidu.com/s/1LaQoNRS8-11V7grAfFiHCg) (fsex);
 
-3. Download [initial model](https://pan.baidu.com/s/1dD2JOY_FBSLzjp5tUPBDBQ) (8ir7) 
+3. Download [initial model](https://pan.baidu.com/s/1dD2JOY_FBSLzjp5tUPBDBQ) (8ir7); 
 
-4. Change the image path and intial model path in run.py and dataset.py
+4. Change the image path and intial model path in run.py and dataset.py;
 
 5. Start to train with `python3 run.py --mode train`.
 
 ### For testing:
-1. Download [pretrained model](https://drive.google.com/open?id=1rM2g5j3PNr3GAUe_8ii5uY5N5s47Zpp0) `$ContrastPrior/Model/`;
+1. Download [pretrained model](https://pan.baidu.com/s/1s35ZyGDSNVzVIeVd7Aot0Q) (2cf5);
 
-2. Generate saliency maps by `python test.py`; 
+2. Change the test image path in dataset.py 
 
-3. Run `$ContrastPrior/evaluation/main.m` to evaluate the saliency maps.
+3. Generate saliency maps for SOD dataset by `python3 run.py --mode test --sal_mode s`, PASCALS by `python3 run.py --mode test --sal_mode p` and so on;
+
 
 
 ### Pretrained models, datasets and results:
 | [Page](https://mmcheng.net/jxzhao/) |
-| [Training Set](https://pan.baidu.com/s/1vbKLwNA4dZYKMT8WV2ylrQ) (rmhn) |
-| [All RGBD Datasets](http://mc.nankai.edu.cn/datasets/rgbd_saliency_datasets.zip)  |
-| [Evaluation results](https://drive.google.com/open?id=17Fmngs0nxF0pEYFGTHAOA2C1akVegwg6)  |
+| [Training Set](https://pan.baidu.com/s/1LaQoNRS8-11V7grAfFiHCg) (fsex) |
+| [Pretrained models](https://pan.baidu.com/s/1s35ZyGDSNVzVIeVd7Aot0Q) (2cf5) |
+| [Saliency maps](https://pan.baidu.com/s/1M_dqPJ08oaYWge_zZnHSTQ) (54gi)  |
 
 
 ### If you think this work is helpful, please cite
 ```latex
-@inproceedings{zhao2019Contrast,
-
-title={Contrast Prior and Fluid Pyramid Integration for RGBD Salient Object Detection},
-
-author={Zhao, Jia-Xing and Cao, Yang and Fan, Deng-Ping and Cheng, Ming-Ming and Li, Xuan-Yi and Zhang, Le},
-
-booktitle=CVPR,
-
-year={2019}
-
-}
-
-@inproceedings{fan2017structure,
-
-title={{Structure-measure: A New Way to Evaluate Foreground Maps}},
-
-author={Fan, Deng-Ping and Cheng, Ming-Ming and Liu, Yun and Li, Tao and Borji, Ali},
-
-booktitle={IEEE International Conference on Computer Vision (ICCV)},
-
-pages = {4548-4557},
-
-year={2017},
-
-note={\url{http://dpfan.net/smeasure/}},
-
-organization={IEEE}
-
+@inproceedings{zhao2019EGNet,
+ title={EGNet:Edge Guidance Network for Salient Object Detection},
+ author={Zhao, Jiaxing and Liu, Jiangjiang and Fan, Dengping and Cao, Yang and Yang, Jufeng and Cheng, Ming-Ming},
+ booktitle={The IEEE International Conference on Computer Vision (ICCV)},
+ month={Oct},
+ year={2019},
 }
 ```
 
