@@ -32,7 +32,7 @@ EGNet:Edge Guidance Network for Salient Object Detection (ICCV 2019)
 ```latex
 @inproceedings{zhao2019EGNet,
  title={EGNet:Edge Guidance Network for Salient Object Detection},
- author={Zhao, Jiaxing and Liu, Jiangjiang and Fan, Dengping and Cao, Yang and Yang, Jufeng and Cheng, Ming-Ming},
+ author={Zhao, Jia-Xing and Liu, Jiangjiang and Fan, Deng-Ping and Cao, Yang and Yang, Jufeng and Cheng, Ming-Ming},
  booktitle={The IEEE International Conference on Computer Vision (ICCV)},
  month={Oct},
  year={2019},
