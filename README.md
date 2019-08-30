@@ -39,5 +39,8 @@ EGNet:Edge Guidance Network for Salient Object Detection (ICCV 2019)
 }
 ```
 
+### Other related work
+Contrast Prior and Fluid Pyramid Integration for RGBD Salient Object Detection. (CVPR2019) [page](https://mmcheng.net/rgbdsalpyr/)
+
 
 
