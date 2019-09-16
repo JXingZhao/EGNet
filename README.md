@@ -1,6 +1,7 @@
 # EGNet
 EGNet:Edge Guidance Network for Salient Object Detection (ICCV 2019)
 
+We use the sal2edge.m to generate the edge label for training.
 ### For training:
 1. Clone this code by `git clone https://github.com/JXingZhao/EGNet.git --recursive`, assume your source code directory is`$EGNet`;
 
