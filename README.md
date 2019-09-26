@@ -20,6 +20,8 @@ We use the sal2edge.m to generate the edge label for training.
 
 3. Generate saliency maps for SOD dataset by `python3 run.py --mode test --sal_mode s`, PASCALS by `python3 run.py --mode test --sal_mode p` and so on;
 
+4. Testing code we use is the public open source code. (https://github.com/Andrew-Qibin/SalMetric)
+
 
 
 ### Pretrained models, datasets and results:
