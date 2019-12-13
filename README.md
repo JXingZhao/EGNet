@@ -14,7 +14,7 @@ We use the sal2edge.m to generate the edge label for training.
 5. Start to train with `python3 run.py --mode train`.
 
 ### For testing:
-1. Download [pretrained model](https://pan.baidu.com/s/1s35ZyGDSNVzVIeVd7Aot0Q) (2cf5);
+1. Download [pretrained model](https://pan.baidu.com/s/1s35ZyGDSNVzVIeVd7Aot0Q) (2cf5)  ([google drive](https://drive.google.com/open?id=17Ffc6V5EiujtcFKupsJXhtlQ3cLK5OGp)); 
 
 2. Change the test image path in dataset.py 
 
