@@ -7,7 +7,7 @@ We use the sal2edge.m to generate the edge label for training.
 
 2. Download [training data](https://pan.baidu.com/s/1LaQoNRS8-11V7grAfFiHCg) (fsex);
 
-3. Download [initial model](https://pan.baidu.com/s/1dD2JOY_FBSLzjp5tUPBDBQ) (8ir7); 
+3. Download [initial model](https://pan.baidu.com/s/1dD2JOY_FBSLzjp5tUPBDBQ) (8ir7) ([google_drive](https://drive.google.com/open?id=1q7FtHWoarRzGNQQXTn9t7QSR8jJL8vk6)); 
 
 4. Change the image path and intial model path in run.py and dataset.py;
 
