@@ -28,7 +28,7 @@ We use the sal2edge.m to generate the edge label for training.
 | [Page](https://mmcheng.net/jxzhao/) |
 | [Training Set](https://pan.baidu.com/s/1LaQoNRS8-11V7grAfFiHCg) (fsex) |
 | [Pretrained models](https://pan.baidu.com/s/1s35ZyGDSNVzVIeVd7Aot0Q) (2cf5) |
-| [Saliency maps](https://pan.baidu.com/s/1M_dqPJ08oaYWge_zZnHSTQ) (54gi) ([google drive VGG](https://drive.google.com/open?id=1WEuEqNmqMePyxD8anGo0KA4rWK9Nyb9I) ([google drive resnet](https://drive.google.com/open?id=1h5R8tT3Jq_2S3pLfXREpuWaKvFphQ4K9) |
+| [Saliency maps](https://pan.baidu.com/s/1M_dqPJ08oaYWge_zZnHSTQ) (54gi) ([google drive VGG](https://drive.google.com/open?id=1WEuEqNmqMePyxD8anGo0KA4rWK9Nyb9I)) ([google drive resnet](https://drive.google.com/open?id=1h5R8tT3Jq_2S3pLfXREpuWaKvFphQ4K9)) |
 
 
 ### If you think this work is helpful, please cite
